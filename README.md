@@ -49,6 +49,7 @@ It allows users to access webcam, capture photos, record videos, and download me
 ## 📁 PROJECT STRUCTURE
 
 camera-app/
+
 📄 index.html   → Main structure
 
 🎨 style.css    → Styling
@@ -126,4 +127,4 @@ Purpose: Practice project for frontend development
 
 ---
 
-If you want next step, I can turn this into a **10/10 GitHub portfolio README with banner, badges, and screenshots section like real devs use** 👍
+
