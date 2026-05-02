@@ -52,9 +52,9 @@ camera-app/
 
 📄 index.html   → Main structure
 
-🎨 style.css    → Styling
+🎨 index.css    → Styling
 
-⚙️ script.js    → Camera logic
+⚙️ index.js    → Camera logic
 
 📘 README.txt   → Project details
 
