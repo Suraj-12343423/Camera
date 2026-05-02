@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Camera App</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h1>📸 Camera App</h1>
+
+<div class="container">
+  <video id="video" autoplay></video>
+  <canvas id="canvas"></canvas>
+</div>
+
+<div class="buttons">
+  <button onclick="startCamera()">Start Camera</button>
+  <button onclick="stopCamera()">Stop Camera</button>
+  <button onclick="capturePhoto()">📸 Capture</button>
+  <button onclick="downloadPhoto()">📥 Download</button>
+  <button onclick="startRecording()">🎥 Record</button>
+  <button onclick="stopRecording()">⛔ Stop Rec</button>
+</div>
+
+<h2>🖼️ Gallery</h2>
+<div id="gallery" class="gallery"></div>
+
+<script src="index.js"></script>
+</body>
+</html>

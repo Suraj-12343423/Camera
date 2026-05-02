@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background: #111;
+  color: white;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  margin: auto;
+}
+
+video, canvas {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #00ffcc;
+}
+
+canvas {
+  display: none;
+}
+
+.buttons {
+  margin: 15px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background: #00ffcc;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #00ccaa;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.gallery img {
+  width: 120px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
